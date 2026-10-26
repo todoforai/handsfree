@@ -6,7 +6,7 @@ export const META_BASE = "https://api.meta.ai/v1";
 export type Planner = { baseURL: string; apiKey: string; model: string };
 
 export function plannerFromEnv(): Planner {
-  const spec = process.env.HANDSFREE_PLANNER ?? "muse-wonder-1.0";
+  const spec = process.env.HANDSFREE_PLANNER ?? "muse-spark-1.3";
   if (spec.startsWith("baseten:")) {
     return {
       baseURL: "https://inference.baseten.co/v1",
