@@ -1,0 +1,19 @@
+{
+  "name": "handsfree",
+  "version": "0.0.1",
+  "description": "Voice-driven computer-use agent for your real phone and desktop, powered by Meta Muse Spark, SAM 3.1 and Muse Voice Transcribe",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "handsfree": "./cli.ts"
+  },
+  "scripts": {
+    "start": "bun run cli.ts",
+    "check": "bun x tsc --noEmit",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "typescript": "^7.0.2"
+  }
+}
