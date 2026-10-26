@@ -64,3 +64,8 @@ Startup track; Best Agentic Use-Case ($5K); Best Build on Meta Open Weight Model
 | Nov 2 | Baseten Muse Spark Open variant, README, polish |
 | Nov 3 | Demo video, X post |
 | Nov 4 | Buffer, submit before 21:00 ET (03:00 Nov 5 Budapest) |
+
+## Open items (owner: Marcell)
+- Claim $150 Meta Model API credits (form in participant guide; needs Meta account + card, per person, by Nov 4). Create key at dev.meta.ai dashboard → `MODEL_API_KEY`.
+- Baseten $100 and Modal $100 credit forms.
+- Day-1 experiments: does `tools:[{type:"computer"}]` work on muse-spark-1.3 or only muse-wonder-1.0; does SAM 3.1 return sensible boxes on UI screenshots.
